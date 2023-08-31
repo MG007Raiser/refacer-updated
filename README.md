@@ -76,12 +76,16 @@ Follow these steps to install Refacer:
     ```
 
 2. Download the Insightface model:
-   You can manually download the model created by Insightface from this [link](https://huggingface.co/deepinsight/inswapper/resolve/main/inswapper_128.onnx) and add it to the project folder. Alternatively, if you have `wget` installed, you can use the following command:
+   Use `wget` if its installed, you can use the following command:
     ```bash
-    wget --content-disposition https://huggingface.co/deepinsight/inswapper/resolve/main/inswapper_128.onnx
+    wget https://civitai.com/api/download/models/85159 -O inswapper_128.onnx
+    ```
+    If you dont have 'wget' install it using chocolatey:
+    ```shell
+    choco install wget
     ```
 
-3. Install dependencies:
+4. Install dependencies:
 
     * For CPU (compatible with Windows, MacOSX, and Linux):
     ```bash
