@@ -35,6 +35,27 @@ Ensure that you have `ffmpeg` installed and correctly configured. There are many
 
 - [How to Install FFmpeg](https://www.hostinger.com/tutorials/how-to-install-ffmpeg)
 
+Install FFMPEG using Chocolatey
+
+On Windows 
+
+Install Chocolatey
+
+1.Open up Terminal or Powershell as Admin. Run the following : "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+2.To check if its running type "choco version"
+
+Install FFMPEG
+
+To install FFmpeg using Chocolatey in the terminal, you can follow these steps:
+1. Open the terminal by right-clicking on the start button and selecting "Command Prompt (Admin)" or "Windows PowerShell (Admin)".
+2. If Chocolatey is installed, you can install FFmpeg by typing this command:
+```shell
+choco install ffmpeg
+```
+3. To check if FFMPEG is installed type:
+```shell
+ffmpeg -version
+```
 
 ## Installation
 
