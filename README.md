@@ -41,8 +41,14 @@ On Windows
 
 Install Chocolatey
 
-1.Open up Terminal or Powershell as Admin. Run the following : "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
-2.To check if its running type "choco version"
+1.Open up Terminal or Powershell as Admin. Run the following: 
+```shell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+2.To check if its running type:
+```shell
+choco version
+```
 
 Install FFMPEG
 
